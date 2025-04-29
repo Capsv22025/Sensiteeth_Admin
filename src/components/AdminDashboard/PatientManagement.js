@@ -120,14 +120,6 @@ const PatientManagement = () => {
   return (
     <div className={styles.userManagementContainer}>
       <h2 className={styles.userManagementTitle}>Patient Management</h2>
-      <div className={styles.userManagementFilterContainer}>
-        <button
-          onClick={() => { setSelectedPatient(null); setIsModalOpen(true); }}
-          className={styles.userManagementAddButton}
-        >
-          Add Patient
-        </button>
-      </div>
       {isLoading ? (
         <p className={styles.userManagementLoading}>Loading...</p>
       ) : patients.length === 0 ? (
