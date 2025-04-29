@@ -1,0 +1,35 @@
+/* src/components/Shared/Table.module.css */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .table th {
+    background-color: #f1f5f9;
+    font-weight: 600;
+    color: #1f2937;
+  }
+  
+  .table td {
+    color: #4b5563;
+  }
+  
+  .table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f9fafb;
+  }
